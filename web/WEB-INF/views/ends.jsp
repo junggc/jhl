@@ -14,13 +14,16 @@
     <title>Title</title>
 </head>
 <body>
- <h1>여기가 끝</h1>
+ <h1>여기는 끝 화면</h1>
 
-<%--<%=request.getAttribute("bb")%>--%>
+ ${starbucks}<br/>
+ ${cc}<br/>
+ ${ee}
+<%-- <%=request.getAttribute("cc")%>--%>
 
- ${cc}
 
-<c:out value="${ee}"/>
+
+<%--<c:out value="${ee}"/>--%>
 
 </body>
 </html>

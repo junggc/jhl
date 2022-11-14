@@ -15,6 +15,6 @@
 <%--HomeController 를 탐--%>
   <button type="button" onclick="location.href='/ddd'" class="btn btn-primary">누르면 ddd로 간다</button>
 
-  <h1>/fff로 가서  index.jsp 불럿다</h1>
+  <h1>/fff로 가서 wep-inf의 index.jsp 화면입니다.</h1>
   </body>
 </html>

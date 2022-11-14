@@ -31,8 +31,10 @@ public class TheController {
 //        TheDto thedto = new TheDto();
 //        thedto.setBb(httpservletrequest.getParameter("bb"));
 //        System.out.println(thedto.getBb());
-        System.out.println(thed.getBb()+"PP");
+//        System.out.println(thed.getStarbucks()+"PP");
+        model.addAttribute("starbucks",httpservletrequest.getParameter("starbucks"));
         model.addAttribute("cc",httpservletrequest.getParameter("cc"));
+        model.addAttribute("ee",httpservletrequest.getParameter("ee"));
         return "ends";
 
     }

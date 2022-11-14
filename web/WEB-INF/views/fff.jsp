@@ -15,6 +15,6 @@
 <%--TheController를 탐--%>
 <button type="button" onclick="location.href='/eee'" class="btn btn-primary">formprac으로</button>
 
-<h1>/ddd 가서 fff.jsp불럿다</h1>
+<h1>/ddd 가서 fff.jsp 화면 입니다</h1>
 </body>
 </html>

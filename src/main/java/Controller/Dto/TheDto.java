@@ -2,27 +2,31 @@ package Controller.Dto;
 
 public class TheDto {
 
-    private String bb;
+    private String starbucks;
     private String cc;
     private String ee;
 
-    public String getBb(){
-        return bb;
-    }
-    public void setBb(String bb){
-        this.bb=bb;
-    }
-    public String getCc(){
-        return cc;
-    }
-    public void setCc(String cc){
-        this.cc=cc;
-    }
-    public String getEe(){
+    public String getEe() {
         return ee;
     }
-    public void setEe(String ee){
-        this.ee=ee;
+
+    public void setEe(String ee) {
+        this.ee = ee;
     }
 
+    public String getCc() {
+        return cc;
+    }
+
+    public void setCc(String cc) {
+        this.cc = cc;
+    }
+
+    public String getStarbucks() {
+        return starbucks;
+    }
+
+    public void setStarbucks(String starbucks) {
+        this.starbucks = starbucks;
+    }
 }
